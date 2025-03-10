@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Create New User</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create New User</h1>
+        <form method="POST">
+            <input type="text" name="new_username" placeholder="New Username" required>
+            <input type="password" name="new_password" placeholder="New Password" required>
+            <button type="submit">Create</button>
+        </form>
+        <
